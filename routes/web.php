@@ -24,7 +24,6 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/user/{name}', [UserController::class, 'show']);
 
 
-
 // Task 3: point the GET URL "/about" to the view
 // resources/views/pages/about.blade.php - without any controller
 // Also, assign the route name "about"
